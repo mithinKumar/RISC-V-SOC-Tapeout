@@ -52,6 +52,3 @@ sudo apt install gtkwave
 
 ![GTKWave Installation](gtkwave_image.png)
 
-### OpenSTA *(not needed for SFAL participants)*
-
-https://github.com/The-OpenROAD-Project/OpenSTA
