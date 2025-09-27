@@ -86,9 +86,9 @@ Steps:
 4. Use time delays (`#10`, etc.) for timing control.
 
 **Example outputs** (placeholders):
+ ![Simulation terminal output](./lab2-terminal.png)
+ ![Simulation waveform](./lab2-waveform.png)
 
-* Simulation terminal output → [PLACEHOLDER – img1-simulation-terminal]
-* Simulated waveform in GTKWave → [PLACEHOLDER – img2-simulated-waveform]
 
 ---
 
@@ -118,24 +118,21 @@ Steps:
 * Contains **modules** like AND, OR, DFF, etc.
 * Each logic gate has **multiple flavors** (different sizes/power trade-offs).
 
-### ⚡ Gate Drive Strength
+# ⚡ Gate Drive Strength
 
-* **High Drive Strength Cells**:
+## High Drive Strength Cells:
+- **Wider PMOS/NMOS** → fast switching
+- Fix **setup violations** (critical paths)
+- **Condition**:
+  ```
+  T_clk > T_coA + T_comb + T_setup
+  ```
 
-  * Wider PMOS/NMOS → **fast switching**.
-  * Fix **setup violations** (critical paths).
-  * Condition:
-    [
-    T_{clk} > T_{coA} + T_{comb} + T_{setup}
-    ]
-
-* **Low Drive Strength Cells**:
-
-  * Slower → used to fix **hold violations** (path too fast).
-  * Condition:
-    [
-    T_{hold} < T_{coA} + T_{comb}
-    ]
+## Low Drive Strength Cells:
+- **Slower** → used to fix **hold violations** (path too fast)
+- **Condition**:
+  ```
+  T_hold < T_coA
 
 ### ⚖️ Load & Trade-offs
 
