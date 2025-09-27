@@ -85,7 +85,7 @@ Steps:
 3. Use `$dumpfile` / `$dumpvars` for waveform dumping.
 4. Use time delays (`#10`, etc.) for timing control.
 
-**Example outputs** (placeholders):
+**Outputs** :
  ![Simulation terminal output](./lab2-terminal.png)
  ![Simulation waveform](./lab2-waveform.png)
 
@@ -153,5 +153,8 @@ Steps:
 | **5**  | `show`                                    | (Optional) Generate schematic view of synthesized netlist. |
 | **6a** | `write_verilog design_netlist.v`          | Export synthesized netlist.                                |
 | **6b** | `write_verilog -noattrs design_netlist.v` | Export netlist without attributes (cleaner).               |
+
+**Outputs** :
+ ![Terminal output](./lab3-terminal.png)
 
 ---
