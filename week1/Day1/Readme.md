@@ -156,5 +156,6 @@ Steps:
 
 **Outputs** :
  ![Terminal output](./lab3-terminal.png)
+ ![Terminal output](./lab3-terminal2.png)
 
 ---
