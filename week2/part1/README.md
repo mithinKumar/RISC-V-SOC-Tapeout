@@ -1,7 +1,7 @@
 
 
 
-#**Part 1: SOC Fundamentals**
+# **Part 1: SOC Fundamentals**
 
 ### **1. What is an SoC? (System-on-Chip Definition)**
 
