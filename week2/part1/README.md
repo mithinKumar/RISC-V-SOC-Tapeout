@@ -196,7 +196,7 @@ The PLL is a critical mixed-signal block composed of three main parts:
 
 1. **PFD (Phase Frequency Detector):**
 
-   * It is the "sensor" or analogue circuit that generates a **voltage signal proportional to the error in phase or frequency** of the input or output signal.
+   * It is the "sensor" or analogue circuit that generates a **voltage signal proportional to the error in phase or frequency** of the input and output signal.
 
 2. **Loop Filter:**
 
