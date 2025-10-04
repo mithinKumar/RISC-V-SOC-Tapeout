@@ -47,7 +47,7 @@ An SoC is a design where **different electronic components** are integrated onto
 
 ---
 
-## **Part 2: High-Level SoC Design Flow**
+## **2. High-Level SoC Design Flow**
 
 The design flow is separated into two major phases: **Front-End (Logical)** and **Back-End (Physical)**.
 
