@@ -1,7 +1,5 @@
 
-# **Week 2: System-on-Chip (SoC) Fundamentals**
 
----
 
 ## **Part 1: Theory**
 
