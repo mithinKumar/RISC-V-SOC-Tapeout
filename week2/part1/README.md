@@ -1,7 +1,7 @@
 
 
 
-## **Part 1: Theory**
+#**Part 1: SOC Fundamentals**
 
 ### **1. What is an SoC? (System-on-Chip Definition)**
 
@@ -129,7 +129,7 @@ These tools are used for precise, transistor-level simulation of analog blocks:
 
 ---
 
-## **1. VSD Baby SoC Overview**
+# **Part 2: VSD Baby SoC Overview**
 
 The **VSD Baby SoC** is a simplified SoC designed for learning. It contains three major IP blocks:
 
