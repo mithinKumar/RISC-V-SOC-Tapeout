@@ -14,7 +14,7 @@ An SoC is a design where **different electronic components** are integrated onto
 | Low Area / Low Power | **Adds more complexity** to design                |
 | Higher Performance   | **Magnifies heating issues** (Thermal Management) |
 
----
+
 
 ### **2. Typical SoC Components**
 
@@ -51,7 +51,7 @@ An SoC is a design where **different electronic components** are integrated onto
 
 The design flow is separated into two major phases: **Front-End (Logical)** and **Back-End (Physical)**.
 
----
+
 
 ### **I. Front-End (Logical)**
 
@@ -63,7 +63,7 @@ The design flow is separated into two major phases: **Front-End (Logical)** and 
 | **Logic Synthesis**                  | Translating RTL to a gate-level netlist             | Synopsys DC (Design Compiler), Cadence Genus |
 | **Formal Verification**              | Proving logical equivalence between RTL and netlist | -                                            |
 
----
+
 
 ### **II. Back-End (Physical)**
 
@@ -96,7 +96,6 @@ SoCs contain pre-verified IP blocks that are manufactured by different corporati
 * **Issue:** If analog circuitry shares the same die, sensitive analog signals will be **corrupted**.
 * **Phenomenon:** This is called **Substrate Noise Coupling**.
 
----
 
 ### **Solutions: Isolation and Interface**
 
@@ -108,13 +107,12 @@ SoCs contain pre-verified IP blocks that are manufactured by different corporati
 2. **Deep N-Well Isolation:**
    A separate **Deep N-Well** is created for analog components on the P-substrate silicon wafer to provide physical isolation from the noisy digital substrate.
 
----
 
 #### **B. The Interface**
 
 * **ADCs / DACs** (Analog-to-Digital and Digital-to-Analog Converters) are used for communication between the analog and digital domains.
 
----
+
 
 ### **Analog Simulators**
 
