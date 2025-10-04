@@ -133,6 +133,8 @@ The **VSD Baby SoC** is a simplified SoC designed for learning. It contains thre
 2. A **Clock Generator** (The PLL)
 3. An **Analog Converter** (The DAC)
 
+![SOC](./SOC.png)
+
 
 
 ### **Working Flow (High-Level)**
@@ -188,6 +190,7 @@ Using an on-chip PLL mitigates several challenges associated with distributing a
 
 
 ### **PLL Components**
+![PLL](./PLL.png)
 
 The PLL is a critical mixed-signal block composed of three main parts:
 
