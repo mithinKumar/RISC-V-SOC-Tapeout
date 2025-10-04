@@ -123,9 +123,7 @@ These tools are used for precise, transistor-level simulation of analog blocks:
 
 ---
 
-# **VSD Baby SoC and Core Components**
 
----
 
 # **Part 2: VSD Baby SoC Overview**
 
@@ -135,7 +133,7 @@ The **VSD Baby SoC** is a simplified SoC designed for learning. It contains thre
 2. A **Clock Generator** (The PLL)
 3. An **Analog Converter** (The DAC)
 
----
+
 
 ### **Working Flow (High-Level)**
 
@@ -178,7 +176,7 @@ The processor runs instructions and uses **32 registers** (The standard RISC-V r
 * The PLL generates a **clock** that is **synchronized in phase with an input signal**.
 * There is a **negative feedback loop** within the PLL, so it constantly tries to **lock the input and output clock signals**.
 
----
+
 
 ### **Why Use an On-Chip PLL instead of an Off-Chip Clock?**
 
@@ -187,7 +185,7 @@ Using an on-chip PLL mitigates several challenges associated with distributing a
 * **Clock Distribution Delays:** Off-chip clocks suffer from variable path lengths across the chip.
 * **Clock Jitter:** The clock edge from an off-chip source is often **not sharp** (high jitter).
 
----
+
 
 ### **PLL Components**
 
@@ -205,7 +203,6 @@ The PLL is a critical mixed-signal block composed of three main parts:
 
    * Generates a **pulse** whose **frequency adjusts to the control voltage** received from the Loop Filter.
 
----
 
 ### **Challenges with the Input Clock Source**
 
@@ -218,5 +215,4 @@ The input clock typically comes from an external **crystal oscillator** and can 
 
 ---
 
-Would you like me to make a **PDF-ready version** of this (formatted for submission or documentation, with consistent headers, table borders, and spacing)?
 
